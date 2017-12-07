@@ -1,15 +1,15 @@
 {
-  "name": "react-tag-autocomplete",
+  "name": "react-tag-autocomplete-no-marking",
   "version": "5.4.1",
   "description": "React Tag Autocomplete is a simple tagging component ready to drop in your React projects.",
-  "main": "lib/ReactTags.js",
+  "main": "dist-es5/ReactTags.js",
   "jsnext:main": "dist-es6/ReactTags.js",
   "scripts": {
     "pretest": "npm run lint && npm run build:es5",
     "test": "jasmine",
     "coverage": "istanbul cover -i 'dist-es5/**' jasmine",
     "lint": "standard lib/*.js spec/*.js",
-    "dev": "webpack-dev-server --progress --colors --port ${PORT:-8080} --host 0.0.0.0",
+    "dev": "webpack-dev-server --progress --colors --port ${PORT:-8082} --host 0.0.0.0",
     "build:example": "webpack -p --config-name example",
     "build:es5": "buble lib --objectAssign -o dist-es5",
     "build:es6": "buble lib --objectAssign -o dist-es6 -t node:6",
@@ -39,7 +39,7 @@
     "Mike Kamermans"
   ],
   "license": "MIT",
-  "repository": "https://github.com/i-like-robots/react-tags",
+  "repository": "https://github.com/shaun-sweet/react-tags",
   "peerDependencies": {
     "prop-types": "^15.0.0",
     "react": "^15.0.0",
