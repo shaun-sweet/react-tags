@@ -2,7 +2,7 @@
   "name": "react-tag-autocomplete",
   "version": "5.4.1",
   "description": "React Tag Autocomplete is a simple tagging component ready to drop in your React projects.",
-  "main": "dist-es5/ReactTags.js",
+  "main": "lib/ReactTags.js",
   "jsnext:main": "dist-es6/ReactTags.js",
   "scripts": {
     "pretest": "npm run lint && npm run build:es5",
