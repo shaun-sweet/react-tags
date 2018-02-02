@@ -1,7 +1,7 @@
 # React Tag Autocomplete
 
 [![Build status](https://api.travis-ci.org/i-like-robots/react-tags.svg?branch=master)](https://travis-ci.org/i-like-robots/react-tags) [![Coverage Status](https://coveralls.io/repos/github/i-like-robots/react-tags/badge.svg?branch=master)](https://coveralls.io/github/i-like-robots/react-tags)
-
+*This is a fork* 
 React Tag Autocomplete is a simple tagging component ready to drop in your React projects. Originally based on the [React Tags project](http://prakhar.me/react-tags/example) by Prakhar Srivastav this version removes the drag-and-drop re-ordering functionality, adds appropriate roles and ARIA states and introduces a resizing text input. React Tag Autocomplete is compatible with [Preact](https://preactjs.com/) >= 6.0.0.
 
 ![Screenshot of React Tag Autocomplete](https://cloud.githubusercontent.com/assets/271645/25478773/54aa2bbe-2b3a-11e7-95cf-d419f3c24418.png)
@@ -11,7 +11,7 @@ React Tag Autocomplete is a simple tagging component ready to drop in your React
 The preferred way of using the component is via NPM
 
 ```
-npm install --save react-tag-autocomplete
+npm install --save @ssweet/react-tag-autocomplete
 ```
 
 ## Usage

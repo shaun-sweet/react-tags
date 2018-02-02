@@ -1,5 +1,5 @@
 {
-  "name": "react-tag-autocomplete-no-marking",
+  "name": "@ssweet/react-tag-autocomplete",
   "version": "5.4.2",
   "description": "React Tag Autocomplete is a simple tagging component ready to drop in your React projects.",
   "main": "dist-es5/ReactTags.js",
